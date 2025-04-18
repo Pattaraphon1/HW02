@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(./bg_Hw2.webp);
+  background-size: cover;
+  font-family: "Krub", sans-serif;;
+  /* display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; */
+}
+
+h1{
+  font-weight: 400;
+  font-size: 50px;
+}
+
+a {
+  width: 100%;
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: right;
+  margin-right: 300px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Undercons {
+  color: white;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-block: 25px;
+}
+
+.container2 {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+p {
+  width: 300px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 8px;
+  font-size: 13px;
+  letter-spacing: 3px;
+}
+
+.bar1 {
+  width: 300px;
+  height: 8px;
+  background-color: white;
+  box-shadow: 1px 0px 5px 4px rgba(0, 0, 0, 0.20);
+  -webkit-box-shadow: 1px 0px 5px 4px rgba(0, 0, 0, 0.20);
+  -moz-box-shadow: 1px 0px 5px 4px rgba(0, 0, 0, 0.20);
+  margin-bottom: 4px;
+}
+
+.bar2 {
+  width: 75%;
+  height: 8px;
+  background-color: skyblue
+}
+
+.percent {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+span {
+  color: white;
+  font-size: 12px;
+}
+
+button {
+  padding: 8px 25px;
+  background-color: skyblue;
+  border: none;
+  border-radius: 1px;
+  margin-bottom: 40px;
+}
+
+.Social{
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.facebook{
+  width: 40px;
+  height: 40px;
+  border: 2px solid white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Twitter{
+  width: 40px;
+  height: 40px;
+  border: 2px solid white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.in{
+  width: 40px;
+  height: 40px;
+  border: 2px solid white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.message{
+  width: 40px;
+  height: 40px;
+  border: 2px solid white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img{
+  width: 30px;
+  height: 30px;
+}
